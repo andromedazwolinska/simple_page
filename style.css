@@ -104,6 +104,7 @@ body footer {
 }
 
 body footer h1 {
+    position: fixed;
     color: deeppink;
     text-decoration: overline;
     margin: 0;
