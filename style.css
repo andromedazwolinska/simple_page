@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+body header {
+    display: flex;
+    border-bottom: 1px solid;
+    box-shadow: inset 0px 0px 20px 0px grey;
+    min-height: 50px;
+    background-color: bisque;
+}
+
+body header h1 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    color: deeppink;
+    text-decoration: overline;
+    padding: 0 20px;
+}
+
+body header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+body header nav a {
+    height: 100%;
+    flex: 1;
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    white-space: nowrap;
+    justify-content: center;
+    font-weight: 600;
+}
+body header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body div {
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100% - 140px);
+    padding: 20px 0;
+    background-color: cornsilk;
+}
+
+body div aside {
+    width: 25%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+body div section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px dashed;
+    border-right: 1px dashed;
+}
+
+body div section article {
+    min-height: 100px;
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+}
+
+body div section img {
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+body footer {
+    min-height: 50px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    position: absolute;
+    box-shadow: inset 0px 0px 20px 0px grey;
+    width: 100%;
+    bottom: 0;
+}
+
+body footer h1 {
+    color: deeppink;
+    text-decoration: overline;
+    margin: 0;
+}
